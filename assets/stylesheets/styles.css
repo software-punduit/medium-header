@@ -29,8 +29,7 @@ body {
   height: 100px;
   width: 100%;
   padding: 24px;
-  outline-color: var(--secondary-color);
-  outline-style: solid;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .logo {
@@ -59,25 +58,31 @@ body {
   list-style-type: none;
 }
 
+.right-nav-items li:last-child {
+  margin-right: 0;
+}
+
 .right-nav-items li a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+
 .button {
   border: none;
   outline: none;
   color: white;
   width: max-content;
-  padding: 8px;
-  margin-top: -5px;
+  padding: 8px 16px;
+  margin-top: -6px;
   font-size: 12px;
   border-radius: 5px;
+  text-transform: capitalize;
   background-color: var(--secondary-color);
 }
 
 .bottom-section {
   height: 150px;
-  padding: 72px;
+  padding: 0 72px;
 }
 
 div.left-nav {
@@ -91,11 +96,10 @@ div.left-nav {
 
 div.left-nav h1 {
   font-size: 4em;
-  font-weight: bold;
+  font-weight: normal;
   color: black;
-
   font-family: "Times New Roman", Times, serif;
-  letter-spacing: 1px;
+  line-height: 1em;
 }
 
 div.left-nav h3 {
