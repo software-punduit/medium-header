@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #ffc017;
+  --secondary-color: #292929;
+}
+
+/*Default Styles*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--primary-color);
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hero-section {
+  width: 100%;
+  height: 250px;
+  background-color: var(--primary-color);
+}
+
+.top-section {
+  height: 100px;
+  width: 100%;
+  padding: 24px;
+  outline-color: var(--secondary-color);
+  outline-style: solid;
+}
+
+.logo {
+  width: 150px;
+}
+
+.left-nav-logo {
+  width: 50%;
+  float: left;
+}
+
+.right-nav-items {
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+
+.right-nav-items ul {
+  text-align: right;
+  font-size: 14px;
+}
+
+.right-nav-items li {
+  float: left;
+  margin: 0px 24px;
+  list-style-type: none;
+}
+
+.right-nav-items li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.button {
+  border: none;
+  outline: none;
+  color: white;
+  width: max-content;
+  padding: 8px;
+  margin-top: -5px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+
+.bottom-section {
+  height: 150px;
+  padding: 72px;
+}
+
+div.left-nav {
+  float: left;
+  width: 50%;
+  padding-left: 72px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+div.left-nav h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: black;
+
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+}
+
+div.left-nav h3 {
+  font-weight: 100;
+  font-size: 1em;
+  color: black;
+  text-align: left;
+}
+
+div.left-nav button {
+  color: black;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+div.right-nav {
+  float: right;
+  width: 50%;
+  padding-bottom: 200px;
+}
+
+.img {
+  height: 500px;
+  margin-top: -8vh;
+}
