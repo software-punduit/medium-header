@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
   <head>
      <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Medium-header</title>
-    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <title>Medium-header(Flex display)</title>
+    <link rel="stylesheet" href="assets/stylesheets/flex.css">
+    <script type="text/javascript" src="flex.js"></script>
 </head>
   <body>
     <div class="container">
         <div class="top-section">
             <div class="left-nav">
-                
-            <img class="logo" src="assets/images/logo.png" alt="logo"></image>
+                <img class="logo" src="assets/images/logo.png" alt="logo"></image>
             </div>
 
             <div class="right-nav">
@@ -26,6 +26,8 @@
                         </button>
                     </li>
                 </ul>
+              
+
             </div>
         </div>
         
@@ -38,11 +40,23 @@
             <button class="get-started-button button">
                 <span>GET STARTED</span>
             </button>
-            </div>
-        
+            
+            <input type="button" onclick="show_alert()" value="Show alert box" />
+         <input type="button" onclick="show_prompt()" value="Show prompt box" />
+
+    <input
+      type="button"
+      onclick="show_confirm()"
+      value="Show confirm
+box"
+    />
+        </div>
             
         </div>
-     </div>
+     </div> 
+     
+   
+
     <div class="clearfix"></div>
   </body>
 </html>
